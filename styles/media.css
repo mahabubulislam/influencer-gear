@@ -1,14 +1,6 @@
 /* Responsive styles */
 
 @media (max-width: 688px) {
-    body{
-        background-color: burlywood;
-      
-        
-    }
- 
-   
-    
   nav, #first-part{
       flex-direction: column;
       
