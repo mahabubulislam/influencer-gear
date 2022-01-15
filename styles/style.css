@@ -7,12 +7,19 @@
 body{
     font-family: 'Poppins', sans-serif;
 
+
 }
 nav{
     display: flex;
     justify-content: space-between;
 
 }
+nav h2{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
 #menu-bar{
     display: flex;
 }
@@ -33,12 +40,32 @@ main{
     flex-direction: column;
     align-items: center;
 }
+.influencer h1{
+    font-size: 52px;
+    font-weight: 700;
+}
+.influencer p{
+    font-size: 16px;
+    margin-bottom: 16px;
+    
+}
+.prebook-button{
+    width: 196px;
+    height: 44px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    border-radius: 41px;
+}
 #first-part{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 1110px;
     margin-top: 211px;
+    margin-bottom: 100px;
     
     
 }
@@ -46,4 +73,105 @@ main{
     width: 440px;
     height: 414px;
     margin-left: 133px;
+}
+/* .marketplace{
+    display: flex;
+    align-items: center;
+    width: 1110px; */
+/* } */
+.sponsors{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1110px;
+    margin-bottom: 100px;
+
+
+}
+.sponsors img{
+    margin-right: 60px;
+}
+
+.collection-title{
+    font-weight: 600;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* column-gap: 30px; */
+    gap: 30px;
+    width: 1110px;
+}
+.item img{
+    width: 300px;
+    height: 256px;
+    padding: 17px 14px;
+}
+.item{
+    width: 329px;
+    height: 476px;
+    padding: 17px 14px;
+    border-radius: 2px;
+    box-shadow: 1px 1px 5px rgb(177, 172, 172);
+}
+.item-details{
+    padding: 17px 14px;
+}
+.item-details h2{
+    font-size: 28px;
+    font-weight: 500;
+}
+.rating{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+}
+.price{
+    font-size: 24px;
+
+}
+.fa-star {
+    color: #FB8200;
+}
+.fa-star-half-alt{
+    color:#FB8200;
+}
+.rating-point{
+    margin-left: 8px;
+}
+.item-description{
+    color: #787885;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+.seemore-button{
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 50px;
+    color: #E02C6DDE;
+    margin-left: 1039px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 100px;
+
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    
+}
+footer h1{
+    margin-bottom: 3px;
+    padding-top: 50px;
+    font-size: 24px;
+    
+}
+.fa-facebook, .fa-instagram,.fa-twitter{
+    margin-right: 16px;
 }
