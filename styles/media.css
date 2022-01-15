@@ -9,11 +9,17 @@
   #menu{
       display: none;
   }
+  .camera-img{
+    width: 300px;
+    height: 350px;
+   margin-right: 50px;
+}
 
   .sponsors{
      display: grid;
      grid-template-columns: repeat(2,1fr);
-     margin-left: 100px;
+     margin-right: 50px;
+     
      
      
   }
@@ -30,10 +36,16 @@
         gap: 20px; 
         
 }
+.camera-img{
+    width: 300px;
+    height: 350px;
+   margin-right: 50px;
+}
     .sponsors{
       display: grid;
      grid-template-columns: repeat(2,1fr);
-     margin-left: 100px;
+     margin-right: 50px;
+     
     
 }
   
