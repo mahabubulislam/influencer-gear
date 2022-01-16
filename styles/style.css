@@ -40,7 +40,9 @@ nav h2{
     margin: 10px;
     padding: 10px;
 }
-
+#menu ul li:hover{
+    background-color: rgba(153, 44, 44, 0.185);
+}
 /* main part style  */
 main{
     display: flex;
@@ -75,10 +77,15 @@ main{
     padding: 10px 24px;
     border-radius: 41px;
 }
+
+
 .camera-img{
     width: 440px;
     height: 414px;
-    margin-left: 133px;
+    transition: transform 1s ;
+}
+.camera-img:hover{
+    transform:skewX(10deg);
 }
 
 /* sponsors styles */
@@ -104,6 +111,7 @@ main{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+    
 }
 .item img{
     width: 300px;
@@ -158,7 +166,6 @@ main{
     font-size: 16px;
     font-weight: 700;
     margin-bottom: 100px;
-
 }
 /* Contact us styles  */
 #contact-info{
